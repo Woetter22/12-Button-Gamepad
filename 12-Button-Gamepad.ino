@@ -39,8 +39,8 @@ int ButtonCount=(12);
     Joystick.setButton(6,(!digitalRead(8)));
     Joystick.setButton(7,(!digitalRead(9)));
     Joystick.setButton(8,(!digitalRead(10)));
-    Joystick.setButton(9,(!digitalRead(14)));
-    Joystick.setButton(10,(!digitalRead(15)));
-    Joystick.setButton(11,(!digitalRead(16)));
+    Joystick.setButton(9,(!digitalRead(16)));
+    Joystick.setButton(10,(!digitalRead(14)));
+    Joystick.setButton(11,(!digitalRead(15)));
   delay(10);
   }
